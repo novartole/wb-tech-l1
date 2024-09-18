@@ -1,0 +1,8 @@
+[package]
+name = "l110_conveyor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.tokio]
+version = "1.40.0"
+features = ["rt-multi-thread", "sync", "time"]

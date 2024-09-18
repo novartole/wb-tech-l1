@@ -1,0 +1,14 @@
+[package]
+name = "l17_cancellation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.40", features = [
+  "time",
+  "rt-multi-thread",
+  "signal",
+  "sync",
+  "macros",
+] }
+tokio-util = { version = "0.7.12", features = ["rt"] }
